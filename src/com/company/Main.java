@@ -15,7 +15,7 @@ public class Main {
                 twoDimArray[i][j]=L.nextDouble();
             }
             }
-            for (int i = 0; i < str; i++){  //
+            for (int i = 0; i < str; i++){
                 for (int j = 0; j < stlb;  j++){
                 System.out.printf(" %.2f ",twoDimArray[ i][j]*3);
             }

@@ -11,15 +11,13 @@ public class Main {
         double[][] twoDimArray = new double[str][stlb];
         for (int i = 0; i < str; i++){
             for (int j = 0; j < stlb;  j++){
-                System.out.println("введите элемент матрицы");
+                System.out.printf("введите элемент матрицы [%d][%d]\n", i+1, j+1);
                 twoDimArray[i][j]=L.nextDouble();
             }
             }
-            for (int i = 0; i < str; i++){
                 for (int j = 0; j < stlb;  j++){
-                System.out.printf(" %.2f ",twoDimArray[ i][j]*3);
+                System.out.printf(" %.2f ",twoDimArray[0][j]*3);
             }
-            System.out.println();
-        }
+
     }
 }
